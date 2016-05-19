@@ -20,7 +20,7 @@ Use www.baidu.com if you feel that you are not clear enough about them.
         it will install a GitHub and a Git Shell
         GitHub is mainly used to visualize change history
         Git Shell is for version control and changes submit
-####1.3 Accept invitation to the SM-at-THU team
+####1.3 Accept invitation to the SM-at-ANYINT team
         you should offer me your GitHub account name for me to invite you
 ####1.4 Clone StatisticalMechanics to your Git Desktop 
     
@@ -60,7 +60,7 @@ Use www.baidu.com if you feel that you are not clear enough about them.
     Only commands listed below are usually needed:
     
 ####3.1 Open Git Shell and browse to the directory of project StatisticalMechanics
-        if you clone StatisticalMechanics in the suggested path, you only need to input "cd StatisticalMechanics"
+        if you clone StatisticalMechanics in the suggested path, you only need to input "cd smtms"
         
 ####3.2 Use 
     
@@ -92,7 +92,7 @@ Use www.baidu.com if you feel that you are not clear enough about them.
                 git push
                 
         to submit your local changes online
-        things on (https://github.com/SEhomeworkTeamUnnamed/StatisticalMechanics) should change now
+        things on (https://github.com/SMTMSbyMET/smtms) should change now
 
 ####3.6 Use
                 git fetch
