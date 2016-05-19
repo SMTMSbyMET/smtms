@@ -1,4 +1,4 @@
-# StatisticalMechanics
+# Statistical Mechanics Theory and Molecular simulation written by Mark E. Tuckerman
 
 Contributers: SM@ANYINT
 
