@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\usepackage[left=1.5cm, right=1.5cm, top=3cm, bottom = 3cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{feynmf}
+\usepackage{exscale}
+\usepackage{relsize}
+\usepackage{bm}%bold math, for vector
+\linespread{1.1}
+
+%%%%%%%
+%第2章习题安排:
+%%%%%%%
+%WF 1, 
+%TH 5， 7
+
+
+\author{SMTMS-at-ANYINT}
+\title{\bf{Solutions to Tuckerman's Statistical Mechanics Theory and Molecular simulation}\\Chapter 2}
+
+\begin{document}
+	\maketitle
+	\section*{Problem 2.1}
+	\paragraph{a)}
+	From the ideal gas law, eqn.(2.2.2), 
+	$$PV - nRT = 0,$$
+	the work done on the system during the isothermal expansion is simply
+	$$ \Delta W = -\int^{V_{2}}_{V_{1}} PdV = -\int^{V_{2}}_{V_{1}} \frac{nRT}{V} dV = -nRT\ln \frac{V_{2}}{V_{1}} = -\frac{N}{N_{0}}RT\ln \frac{V_{2}}{V_{1}}, $$ 
+	\paragraph{b)}
+	Acoording to Boltzmann's relation, equ.(3.2.11):
+	$$S = k \ln \Omega, $$
+	the change of entropy fro the isothermal process in part a is
+	$$\Delta S = S_{2} - S_{1} = k \ln \Omega_{2} - k \ln \Omega_{1} = k\ln \frac{\Omega_{2}}{\Omega_{1}},$$
+	as thetotalnumber of microscopic states available to the gas can be shown to be $\Omega \propto V^{N}(kT)^{3N/2}$, we can get
+	$$\Delta S = k \ln \frac{\Omega_{2}}{\Omega_{1}} = k\ln \frac{V^{N}_{2}}{V^{N}_{1}} = Nk\ln\frac{V_{2}}{V_{1}}$$
+	~\\
+	Acoording to the first law of thermodynamics, equ.(2.2.5):
+	$$\Delta E = \Delta Q + \Delta W,$$
+	the heat absorbed in the isothermal process (which $\Delta E = 0 $) in part a is:
+	$$\Delta Q = Q_{2} - Q_{1} = - \Delta W = \frac{N}{N_{0}}RT\ln \frac{V_{2}}{V_{1}} $$ 
+	Acorrding to eqn. (2.2.19), the entropy of the system $\Delta S $ defined by
+	
+	$$\Delta S = \int_{1}^{2} \frac{dQ_{rev}}{T},$$
+	so we can calculate the change of entropy 
+	$$\Delta S = \frac{1}{T} \Delta Q = \frac{1}{T} \frac{N}{N_{0}}RT\ln \frac{V_{2}}{V_{1}} = \frac{N}{N_{0}}R\ln \frac{V_{2}}{V_{1}}, $$
+	as $k=R/N_{0}$, we can get 
+	$$\Delta S = Nk \ln \frac{V_{2}}{V_{1}}$$
+	~\\
+	It show that the two method yield the same entropy.
+%	\paragraph{c)}
+%	During
+
+	
+	
+	
+	
+	
+	
+.
+\end{document}

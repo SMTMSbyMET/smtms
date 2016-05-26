@@ -1,6 +1,6 @@
 # Statistical Mechanics Theory and Molecular simulation written by Mark E. Tuckerman
 
-Contributers: SM@ANYINT
+Contributers: SMTMS@ANYINT
 
 Tips for new contributers:
 
